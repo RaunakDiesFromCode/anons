@@ -28,6 +28,7 @@ model Post {
   randomUserId String
   Comment      Comment[]
   Vote         Vote[]
+  votes        Int       @default(0)
 }
 
 model Vote {

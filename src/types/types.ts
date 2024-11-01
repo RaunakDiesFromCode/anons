@@ -6,6 +6,7 @@ export type Post = {
   createdAt: Date; // ISO string
   updatedAt: string; // ISO string
   randomUserId: string; // Reference to the user
+  votes: number; // Number of votes
 };
 
 export type Comment = {
